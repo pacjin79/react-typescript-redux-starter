@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    "mapRoot": "app",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "declaration": true,
+    "stripInternal": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmitOnError": false,
+    "outDir": "tsoutput"
+  },
+  "exclude": [
+    "node_modules",
+    "tsoutput",
+    "dist"
+  ]
+}
